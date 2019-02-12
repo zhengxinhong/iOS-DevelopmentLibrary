@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF53C813221256EE00804A88 /* PageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C812221256EE00804A88 /* PageControllerViewController.m */; };
+		BF53C8172212588200804A88 /* PageContorlController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C8162212588200804A88 /* PageContorlController.m */; };
+		BF53C824221259B100804A88 /* PageFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C823221259B100804A88 /* PageFirstViewController.m */; };
+		BF53C82A221259F700804A88 /* PageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C829221259F700804A88 /* PageSecondViewController.m */; };
+		BF53C82D22125A4400804A88 /* PageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C82C22125A4400804A88 /* PageThirdViewController.m */; };
+		BF53C8352212671D00804A88 /* ZWMSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C8322212671D00804A88 /* ZWMSegmentController.m */; };
+		BF53C8362212671D00804A88 /* ZWMSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C8332212671D00804A88 /* ZWMSegmentView.m */; };
+		BF53C8372212671D00804A88 /* UIView+ZWMBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = BF53C8342212671D00804A88 /* UIView+ZWMBadge.m */; };
 		BFBE00D821F021DE00927A1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE00D721F021DE00927A1E /* AppDelegate.m */; };
 		BFBE00DB21F021DE00927A1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE00DA21F021DE00927A1E /* ViewController.m */; };
 		BFBE00DE21F021DE00927A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFBE00DC21F021DE00927A1E /* Main.storyboard */; };
@@ -15,6 +23,8 @@
 		BFBE00E621F021E000927A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE00E521F021E000927A1E /* main.m */; };
 		BFBE00F021F021E100927A1E /* demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE00EF21F021E100927A1E /* demoTests.m */; };
 		BFBE00FB21F021E100927A1E /* demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE00FA21F021E100927A1E /* demoUITests.m */; };
+		BFBE014A21F0636200927A1E /* TimeSelecterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE014921F0636200927A1E /* TimeSelecterController.m */; };
+		BFBE014D21F0644800927A1E /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE014C21F0644800927A1E /* PickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF53C811221256EE00804A88 /* PageControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageControllerViewController.h; sourceTree = "<group>"; };
+		BF53C812221256EE00804A88 /* PageControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControllerViewController.m; sourceTree = "<group>"; };
+		BF53C8152212588200804A88 /* PageContorlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageContorlController.h; sourceTree = "<group>"; };
+		BF53C8162212588200804A88 /* PageContorlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageContorlController.m; sourceTree = "<group>"; };
+		BF53C822221259B100804A88 /* PageFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageFirstViewController.h; sourceTree = "<group>"; };
+		BF53C823221259B100804A88 /* PageFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageFirstViewController.m; sourceTree = "<group>"; };
+		BF53C828221259F700804A88 /* PageSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageSecondViewController.h; sourceTree = "<group>"; };
+		BF53C829221259F700804A88 /* PageSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageSecondViewController.m; sourceTree = "<group>"; };
+		BF53C82B22125A4400804A88 /* PageThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageThirdViewController.h; sourceTree = "<group>"; };
+		BF53C82C22125A4400804A88 /* PageThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageThirdViewController.m; sourceTree = "<group>"; };
+		BF53C82F2212671D00804A88 /* ZWMSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentView.h; sourceTree = "<group>"; };
+		BF53C8302212671D00804A88 /* ZWMSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWMSegmentController.h; sourceTree = "<group>"; };
+		BF53C8312212671D00804A88 /* UIView+ZWMBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWMBadge.h"; sourceTree = "<group>"; };
+		BF53C8322212671D00804A88 /* ZWMSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentController.m; sourceTree = "<group>"; };
+		BF53C8332212671D00804A88 /* ZWMSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWMSegmentView.m; sourceTree = "<group>"; };
+		BF53C8342212671D00804A88 /* UIView+ZWMBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWMBadge.m"; sourceTree = "<group>"; };
 		BFBE00D321F021DE00927A1E /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE00D621F021DE00927A1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFBE00D721F021DE00927A1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +77,10 @@
 		BFBE00F621F021E100927A1E /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBE00FA21F021E100927A1E /* demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoUITests.m; sourceTree = "<group>"; };
 		BFBE00FC21F021E100927A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBE014821F0636200927A1E /* TimeSelecterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeSelecterController.h; sourceTree = "<group>"; };
+		BFBE014921F0636200927A1E /* TimeSelecterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeSelecterController.m; sourceTree = "<group>"; };
+		BFBE014B21F0644800927A1E /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		BFBE014C21F0644800927A1E /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF53C810221255EF00804A88 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				BF53C8142212585100804A88 /* pageControl */,
+				BF53C811221256EE00804A88 /* PageControllerViewController.h */,
+				BF53C812221256EE00804A88 /* PageControllerViewController.m */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		BF53C8142212585100804A88 /* pageControl */ = {
+			isa = PBXGroup;
+			children = (
+				BF53C82E2212671D00804A88 /* ZWMSegment */,
+				BF53C8152212588200804A88 /* PageContorlController.h */,
+				BF53C8162212588200804A88 /* PageContorlController.m */,
+				BF53C822221259B100804A88 /* PageFirstViewController.h */,
+				BF53C823221259B100804A88 /* PageFirstViewController.m */,
+				BF53C828221259F700804A88 /* PageSecondViewController.h */,
+				BF53C829221259F700804A88 /* PageSecondViewController.m */,
+				BF53C82B22125A4400804A88 /* PageThirdViewController.h */,
+				BF53C82C22125A4400804A88 /* PageThirdViewController.m */,
+			);
+			path = pageControl;
+			sourceTree = "<group>";
+		};
+		BF53C82E2212671D00804A88 /* ZWMSegment */ = {
+			isa = PBXGroup;
+			children = (
+				BF53C8302212671D00804A88 /* ZWMSegmentController.h */,
+				BF53C8322212671D00804A88 /* ZWMSegmentController.m */,
+				BF53C82F2212671D00804A88 /* ZWMSegmentView.h */,
+				BF53C8332212671D00804A88 /* ZWMSegmentView.m */,
+				BF53C8312212671D00804A88 /* UIView+ZWMBadge.h */,
+				BF53C8342212671D00804A88 /* UIView+ZWMBadge.m */,
+			);
+			path = ZWMSegment;
+			sourceTree = "<group>";
+		};
 		BFBE00CA21F021DE00927A1E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +170,8 @@
 		BFBE00D521F021DE00927A1E /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				BF53C810221255EF00804A88 /* PageController */,
+				BFBE014621F0609E00927A1E /* PickerView */,
 				BFBE00D621F021DE00927A1E /* AppDelegate.h */,
 				BFBE00D721F021DE00927A1E /* AppDelegate.m */,
 				BFBE00D921F021DE00927A1E /* ViewController.h */,
@@ -130,6 +201,25 @@
 				BFBE00FC21F021E100927A1E /* Info.plist */,
 			);
 			path = demoUITests;
+			sourceTree = "<group>";
+		};
+		BFBE014621F0609E00927A1E /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE014B21F0644800927A1E /* PickerViewController.h */,
+				BFBE014C21F0644800927A1E /* PickerViewController.m */,
+				BFBE014721F0632700927A1E /* TimeSelector */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		BFBE014721F0632700927A1E /* TimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE014821F0636200927A1E /* TimeSelecterController.h */,
+				BFBE014921F0636200927A1E /* TimeSelecterController.m */,
+			);
+			path = TimeSelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +353,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBE00DB21F021DE00927A1E /* ViewController.m in Sources */,
+				BFBE014A21F0636200927A1E /* TimeSelecterController.m in Sources */,
+				BF53C824221259B100804A88 /* PageFirstViewController.m in Sources */,
+				BF53C8362212671D00804A88 /* ZWMSegmentView.m in Sources */,
+				BF53C8172212588200804A88 /* PageContorlController.m in Sources */,
+				BF53C82D22125A4400804A88 /* PageThirdViewController.m in Sources */,
+				BF53C82A221259F700804A88 /* PageSecondViewController.m in Sources */,
+				BFBE014D21F0644800927A1E /* PickerViewController.m in Sources */,
 				BFBE00E621F021E000927A1E /* main.m in Sources */,
 				BFBE00D821F021DE00927A1E /* AppDelegate.m in Sources */,
+				BF53C8372212671D00804A88 /* UIView+ZWMBadge.m in Sources */,
+				BF53C8352212671D00804A88 /* ZWMSegmentController.m in Sources */,
+				BF53C813221256EE00804A88 /* PageControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

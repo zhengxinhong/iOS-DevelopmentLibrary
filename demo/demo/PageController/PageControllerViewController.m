@@ -1,17 +1,16 @@
 //
-//  ViewController.m
+//  PageControllerViewController.m
 //  demo
 //
-//  Created by 李皓白 on 2019/1/17.
+//  Created by 李皓白 on 2019/2/12.
 //  Copyright © 2019年 李皓白. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "PickerViewController.h"   // 时间选择器
 #import "PageControllerViewController.h"
+#import "PageContorlController.h"
 
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface PageControllerViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     UITableView * tableView;
     
@@ -19,14 +18,14 @@
 }
 @end
 
-@implementation ViewController
+@implementation PageControllerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
-    itemArray = @[@"选择器",@"分页控制器"];
+    itemArray = @[@"分页控制器"];
     
     tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64)];
     
@@ -53,11 +52,21 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (indexPath.row == 0) {
-        [self presentViewController:[[PickerViewController alloc] init] animated:NSLayoutAttributeCenterYWithinMargins completion:nil];
+        [self presentViewController:[[PageContorlController alloc] init] animated:NSLayoutAttributeCenterYWithinMargins completion:nil];
     }else if (indexPath.row == 1){
         
         [self presentViewController:[[PageControllerViewController alloc] init] animated:NSLayoutAttributeCenterYWithinMargins completion:nil];
     }
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end
